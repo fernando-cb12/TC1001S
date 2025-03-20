@@ -2,16 +2,23 @@
 #include <stdlib.h>
 #include <math.h>
 
+int suma(int a, int b){
+    return a+b;
+ }
+
+int resta(int a, int b){
+return a-b;
+}
+
+
 int main(){
     int num1 = 12;
     int num2 = 3;
     
-    int suma(int a, int b){
-        return a+b;
-     }
+    int op1 = suma(num1, num2);
+    ptintf("%i", op1);
+    int op2 = resta(num1, num2);
+    ptintf("%i", op2);
 
-    int resta(int a, int b){
-    return a-b;
-    }
-   
+    return 0;
 }
