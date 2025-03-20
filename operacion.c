@@ -2,10 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
+int resta(int n1, int n2){
+    return n1 - n2;
+}
+
+
 int main(){
     int num1 = 12;
     int num2 = 3;
 
-    int suma = num1 + num2;
-    int resta = num1 - num2;
+    printf(resta(num1, num2));
 }
